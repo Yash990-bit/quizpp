@@ -6,6 +6,12 @@ import Slack from "../Images/Slack.png";
 import MicrosoftTeam from "../Images/MicrosoftTeam.png";
 import Zoom from "../Images/Zoom.png";
 import GoogleMeet from "../Images/GoogleMeet.png";
+import BusinessImg from "../assets/BusinessImg.png";
+import TeamImg from "../assets/TeamImg.png";
+import PopCulture from "../assets/PopCulture.png";
+import Timer from "../assets/Timer.png";
+import Star from "../assets/Star.png";
+import Box from "../assets/Box.png";
 
 function Header() {
   return (
@@ -133,28 +139,53 @@ function Header() {
   <div className="quiz-templates">
     
     <div className="quiz-card">
-      {/* <img src={BusinessImg} alt="Business quiz" /> */}
+      <img src={BusinessImg} alt="Business quiz"/>
       <h2>Business numbers quiz</h2>
       <p>Turn your business updates into an interactive quiz that will keep everyone engaged.</p>
       <a href="#">Use template</a>
     </div>
 
     <div className="quiz-card">
-      {/* <img src={TeamImg} alt="Team trivia quiz" /> */}
+      <img src={TeamImg} alt="Team trivia quiz" />
       <h2>Team trivia quiz</h2>
       <p>Get to know your teammates better by guessing fun facts about each other.</p>
       <a href="#">Use template</a>
     </div>
 
     <div className="quiz-card">
-      {/* <img src={PopCultureImg} alt="Pop culture quiz" /> */}
+      <img src={PopCulture} alt="Pop culture quiz" />
       <h2>Pop culture quiz</h2>
       <p>Test all the movie buffs and music lovers on their knowledge of popular culture.</p>
       <a href="#">Use template</a>
     </div>
-
   </div>
 </div>
+
+<div className="extra">
+  <h1>Extra features</h1>
+  <p>Make the most of our free quiz maker with these handy features</p>
+
+  <div className="extra-features">
+    <div className="feature-card">
+      <img src={Timer} alt="Timer" />
+      <h3>Timer</h3>
+      <p>Add an element of pressure by setting a time limit to answer the questions.</p>
+    </div>
+
+    <div className="feature-card">
+      <img src={Star} alt="Quiz Generator" />
+      <h3>Quiz question generator</h3>
+      <p>Short on time or ideas? Generate a random quiz question in one click.</p>
+    </div>
+
+    <div className="feature-card">
+      <img src={Box} alt="Suggested Options" />
+      <h3>Suggested options <span className="beta">BETA</span></h3>
+      <p>Create quizzes faster by letting Slido suggest potential options for your quiz questions.</p>
+    </div>
+  </div>
+</div>
+
     </>
   );
 }

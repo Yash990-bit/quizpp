@@ -422,3 +422,55 @@
 .quiz-card a:hover {
   color: #ef8d0c;
 }
+
+.extra {
+  text-align: center;
+  padding: 60px 20px;
+  color: #111;
+}
+
+.extra h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.extra p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.extra-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature-card {
+  max-width: 280px;
+  text-align: center;
+}
+
+.feature-card img {
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.feature-card .beta {
+  font-size: 0.8rem;
+  font-weight: 700;
+  vertical-align: super;
+  margin-left: 4px;
+}
+
+.feature-card p {
+  color: #444;
+  font-size: 1rem;
+}
