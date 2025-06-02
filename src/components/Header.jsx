@@ -127,6 +127,34 @@ function Header() {
       </div>
     </div>
   </div>
+
+  <div className="free">
+  <h1>Get started with our free quiz templates</h1>
+  <div className="quiz-templates">
+    
+    <div className="quiz-card">
+      {/* <img src={BusinessImg} alt="Business quiz" /> */}
+      <h2>Business numbers quiz</h2>
+      <p>Turn your business updates into an interactive quiz that will keep everyone engaged.</p>
+      <a href="#">Use template</a>
+    </div>
+
+    <div className="quiz-card">
+      {/* <img src={TeamImg} alt="Team trivia quiz" /> */}
+      <h2>Team trivia quiz</h2>
+      <p>Get to know your teammates better by guessing fun facts about each other.</p>
+      <a href="#">Use template</a>
+    </div>
+
+    <div className="quiz-card">
+      {/* <img src={PopCultureImg} alt="Pop culture quiz" /> */}
+      <h2>Pop culture quiz</h2>
+      <p>Test all the movie buffs and music lovers on their knowledge of popular culture.</p>
+      <a href="#">Use template</a>
+    </div>
+
+  </div>
+</div>
     </>
   );
 }
