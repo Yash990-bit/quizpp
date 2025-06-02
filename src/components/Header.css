@@ -390,7 +390,6 @@
 
 .quiz-card:hover {
   transform: translateY(-5px);
-  color: #c86f15;
 }
 
 .quiz-card img {
