@@ -39,7 +39,7 @@ function Header() {
           <p>
             Run more engaging trainings and energize your participants with our live quiz maker.
           </p>
-          <button className="quiz-btn">Create your quiz for free</button>
+            <button className="quiz-btn">Create your quiz for free</button>
           <button className="join-btn">Join a live quiz</button>
         </div>
 
@@ -185,6 +185,43 @@ function Header() {
     </div>
   </div>
 </div>
+
+  <div className="cta">
+    <h3>Energize your participants with live quizzes.</h3>
+    <button className="quiz-btn3">Create your quiz for free</button>
+  </div>
+
+    <footer className="footer">
+      <div className="footer-content">
+        <h2 className="logo">Quizify</h2>
+        <div className="footer-links">
+          <div>
+            <h4>Product</h4>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Templates</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+          </div>
+          <div>
+            <h4>Support</h4>
+            <a href="#">Help Center</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} Quizify. All rights reserved.</p>
+      </div>
+    </footer>
+
+
+
 
     </>
   );

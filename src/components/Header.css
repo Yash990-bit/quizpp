@@ -474,3 +474,92 @@
   color: #444;
   font-size: 1rem;
 }
+
+.cta{
+  color:#000000;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size:45px; 
+  background-color: #f9f6ef;
+}
+
+.quiz-btn3{
+  background-color: #137c3f;
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.quiz-btn3:hover {
+  background-color:  #ef8d0c;
+}
+
+.footer {
+  background-color: #121212;
+  color: #f1f1f1;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 50px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #a47248;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.footer-links div {
+  text-align: left;
+  min-width: 150px;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.footer-links a {
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: color 0.3s ease;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #ef8d0c;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888888;
+  border-top: 1px solid #2e2e2e;
+  padding-top: 20px;
+}
