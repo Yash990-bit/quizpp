@@ -222,7 +222,67 @@ function Pricing() {
   </div>
 </div>
 
+<div className="customers-section">
+  <h2>You are in good company</h2>
+  <a href="#customers" className="customers-link">Meet our customers</a>
+  <div className="customer-logos">
+    <img src="/logos/suntory.png" alt="Suntory" />
+    <img src="/logos/booking.png" alt="Booking.com" />
+    <img src="/logos/cisco.png" alt="Cisco" />
+    <img src="/logos/websummit.png" alt="Web Summit" />
+    <img src="/logos/glovo.png" alt="Glovo" />
+    <img src="/logos/oracle.png" alt="Oracle" />
+    <img src="/logos/continental.png" alt="Continental" />
+  </div>
+</div>
 
+<div className="cta-section">
+  <h2>Need help choosing the<br />right plan?</h2>
+  <button className="cta-button">Contact us</button>
+</div>
+
+<footer className="site-footer">
+      <div className="footer-content">
+        <div className="footer-brand">
+          <h3>Quizify</h3>
+          <p>Your interactive quiz platform for smarter learning.</p>
+        </div>
+        <div className="footer-links">
+          <div>
+            <h4>Product</h4>
+            <ul>
+              <li><a href="/features">Features</a></li>
+              <li><a href="/pricing">Pricing</a></li>
+              <li><a href="/demo">Live Demo</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/help">Help Center</a></li>
+              <li><a href="/guides">Guides</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="/about">About</a></li>
+              <li><a href="/careers">Careers</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className="footer-social">
+          <a href="#"><i className="fab fa-twitter"></i></a>
+          <a href="#"><i className="fab fa-facebook"></i></a>
+          <a href="#"><i className="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+  <div className="footer-bottom">
+    <p>&copy; {new Date().getFullYear()} Quizify. All rights reserved.</p>
+  </div>
+</footer>
   </>
   )
 }
