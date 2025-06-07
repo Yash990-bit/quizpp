@@ -553,6 +553,7 @@
 
 .footer-links a:hover {
   color: #ef8d0c;
+  text-decoration: underline;
 }
 
 .footer-bottom {
@@ -562,4 +563,111 @@
   color: #888888;
   border-top: 1px solid #2e2e2e;
   padding-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .quiz {
+    text-align: center;
+    max-width: 100%;
+  }
+  .quiz-btn2 {
+    margin: 20px auto 0;
+    display: block;
+  }
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tools, .extra-features, .quiz-templates {
+    flex-direction: column;
+    align-items: center;
+  }
+  .quiz-card, .feature-card, .tool-card, .step {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .auth-buttons {
+    margin-top: 16px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .quiz h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .quiz p {
+    font-size: 16px;
+  }
+  .quiz-btn {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+  .quiz-btn2, .quiz-btn3 {
+    font-size: 16px;
+    padding: 12px 24px;
+    margin: 20px auto 0;
+    display: block;
+  }
+  .works, .features, .extra, .test, .free {
+    padding: 40px 20px;
+  }
+  .cta {
+    font-size: 32px;
+  }
+  .footer-content {
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .footer-links div {
+    min-width: auto;
+  }
+  .footer {
+    text-align: left;
+  }
+  .footer-bottom {
+    font-size: 13px;
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quiz h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .quiz p {
+    font-size: 14px;
+  }
+  .quiz-btn, .quiz-btn2, .quiz-btn3 {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .cta {
+    font-size: 24px;
+  }
 }

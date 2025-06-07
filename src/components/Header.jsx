@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import HeroImage from "../assets/HeroImage.png";
+import { Link } from 'react-router-dom';
 import QuizVideo from "../videos/QuizVideo.mp4";
 import Slack from "../Images/Slack.png";
 import MicrosoftTeam from "../Images/MicrosoftTeam.png";
@@ -20,11 +21,10 @@ function Header() {
         <div className="logo">Quizify</div>
 
         <nav className="nav-links">
-          <a href="#">Product</a>
-          <a href="#">Solutions</a>
-          <a href="#">Pricing</a>
-          <a href="#">Resources</a>
-          <a href="#">Enterprise</a>
+          <Link to="/product">Product</Link>
+          <Link to="/solutions">Solutions</Link>
+          <Link to="/pricing">Pricing</Link>
+          <Link to="/enterprise">Enterprise</Link>
         </nav>
 
         <div className="auth-buttons">
