@@ -1,5 +1,11 @@
 import React from 'react'
 import './Pricing.css'
+import Booking from "../assets/Booking.png";
+import Cisco from "../assets/Cisco.png";
+import Glovo from "../assets/Glovo.png";
+import Oracle from "../assets/Oracle.png";
+import Summit from "../assets/Summit.png";
+import Suntory from "../assets/Suntory.png";
 
 function Pricing() {
   return (
@@ -226,13 +232,12 @@ function Pricing() {
   <h2>You are in good company</h2>
   <a href="#customers" className="customers-link">Meet our customers</a>
   <div className="customer-logos">
-    <img src="/logos/suntory.png" alt="Suntory" />
-    <img src="/logos/booking.png" alt="Booking.com" />
-    <img src="/logos/cisco.png" alt="Cisco" />
-    <img src="/logos/websummit.png" alt="Web Summit" />
-    <img src="/logos/glovo.png" alt="Glovo" />
-    <img src="/logos/oracle.png" alt="Oracle" />
-    <img src="/logos/continental.png" alt="Continental" />
+    <img src={Suntory} alt="Suntory" />
+    <img src={Booking} alt="Booking.com" />
+    <img src={Cisco} alt="Cisco" />
+    <img src={Summit} alt="Web Summit" />
+    <img src={Glovo} alt="Glovo" />
+    <img src={Oracle} alt="Oracle" />
   </div>
 </div>
 
